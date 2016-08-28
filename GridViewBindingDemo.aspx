@@ -14,7 +14,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:GridView ID="gvEmpDetails" runat="server" AutoGenerateColumns="False" OnRowCancelingEdit="gvEmpDetails_RowCancelingEdit" OnRowEditing="gvEmpDetails_RowEditing" OnSelectedIndexChanged="gvEmpDetails_SelectedIndexChanged" OnRowDataBound="gvEmpDetails_RowDataBound" OnRowDeleting="gvEmpDetails_RowDeleting" OnRowUpdating="gvEmpDetails_RowUpdating">
+        
+        <asp:GridView ID="gvEmpDetails" runat="server" AutoGenerateColumns="False"
+        OnRowCancelingEdit="gvEmpDetails_RowCancelingEdit" OnRowEditing="gvEmpDetails_RowEditing" 
+        OnSelectedIndexChanged="gvEmpDetails_SelectedIndexChanged" OnRowDataBound="gvEmpDetails_RowDataBound" 
+        OnRowDeleting="gvEmpDetails_RowDeleting" OnRowUpdating="gvEmpDetails_RowUpdating">
+        
             <Columns>
                 <asp:TemplateField>
                     <HeaderTemplate>
